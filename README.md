@@ -1,6 +1,6 @@
-# Quiz Hero Now Zero
+# Quiz Hero Now It's ALways Hero!!!!!!
 
-### Private Repo Link
-Click Here to create [private repo](https://classroom.github.com/a/xhXEYY1C)
+Here is this live link : https://quiz-here-by-jubair.netlify.app/
 
-Private Repo link: [https://classroom.github.com/a/xhXEYY1C](https://classroom.github.com/a/xhXEYY1C)
+
+
