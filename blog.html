@@ -1,0 +1,145 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://cdn.tailwindcss.com"></script>
+
+  <title>Blog</title>
+
+    <!-- tailwindcss Plugin -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.6.3/flowbite.min.css" rel="stylesheet" />
+
+
+   <!-- Tailwind File -->
+   <script src="https://cdn.tailwindcss.com"></script>
+   <!-- Main CSS -->
+   <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  
+   <!-- ==============Header Part Start================ -->
+   <header class="bg-[#1090D81A] w-[90%] mx-auto rounded-md mt-8 h-15 flex justify-between">
+    <div class="px-20 py-2">
+      <h1 class="text-2xl pt-2">Quiz <span class="text-green-700">HERO</span></h1>
+    </div>
+    <div class="px-8 py-6">
+        <a href="index.html" class="bg-[#238a04] px-7 py-2 pt-2 rounded-md text-white">Back to Home</a>
+    </div>
+</header>
+
+<!-- ==============Header Part End================ -->
+<!-- ==============Blog Section Part Start================ -->
+<section class=" px-20 py-12">
+    <h1 class="text-center text-3xl font-bold mb-7 underline">My Blog</h1>
+<div id="accordion-color" data-accordion="collapse" data-active-classes="bg-blue-100 dark:bg-gray-800 text-blue-600 dark:text-white">
+    <h2 id="accordion-color-heading-1">
+      <button type="button" class="flex items-center justify-between w-full p-5 font-medium text-left text-gray-500 border border-b-0 border-gray-200 rounded-t-xl focus:ring-4 focus:ring-blue-200 dark:focus:ring-blue-800 dark:border-gray-700 dark:text-gray-400 hover:bg-blue-100 dark:hover:bg-gray-800" data-accordion-target="#accordion-color-body-1" aria-expanded="true" aria-controls="accordion-color-body-1">
+        <span>What is the main difference of map, filter, foreach & find.?</span>
+        <svg data-accordion-icon class="w-6 h-6 rotate-180 shrink-0" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clip-rule="evenodd"></path></svg>
+      </button>
+    </h2>
+    <div id="accordion-color-body-1" class="hidden" aria-labelledby="accordion-color-heading-1">
+      <div class="p-5 font-light border border-b-0 border-gray-200 dark:border-gray-700 dark:bg-gray-900">
+        <p class="mb-2 text-gray-800 dark:text-gray-200"> map,filter,find & foreach they are array methods. that's the main difference is :
+          <ul class="text-white list-disc px-8 py-3">
+            <li><span class="text-base">map : creates a new array with the results of calling a provided function on every element in the original array.</span></li>
+            <li><span class="text-base">filter : creates a new array with all elements that pass the test implemented by the provided function.</span></li>
+            <li><span class="text-base">find : returns the first element in the array that satisfies the provided testing function. Otherwise, it returns undefined.</span></li>
+            <li><span class="text-base">foreach : executes a provided function once for each array element.</span></li>
+          </ul>  
+        
+        </p>
+        
+      </div>
+    </div>
+    <h2 id="accordion-color-heading-2">
+      <button type="button" class="flex items-center justify-between w-full p-5 font-medium text-left text-gray-500 border border-b-0 border-gray-200 focus:ring-4 focus:ring-blue-200 dark:focus:ring-blue-800 dark:border-gray-700 dark:text-gray-400 hover:bg-blue-100 dark:hover:bg-gray-800" data-accordion-target="#accordion-color-body-2" aria-expanded="false" aria-controls="accordion-color-body-2">
+        <span> What is the major difference of Local Storage, Session Storage, Cookies.?</span>
+        <svg data-accordion-icon class="w-6 h-6 shrink-0" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clip-rule="evenodd"></path></svg>
+      </button>
+    </h2>
+    <div id="accordion-color-body-2" class="hidden" aria-labelledby="accordion-color-heading-2">
+      <div class="p-5 font-light border border-b-0  dark:border-gray-700 dark:bg-gray-900">
+        <p class="mb-2  text-gray-400 dark:text-gray-200">They are main difference of Local Storage, Session Storage, Cookies. for example :
+           <ol class="text-white list-decimal p-7 px-5">
+                <li>Local Storage :  Local Storage is a way to store data in a user's browser that persists even after the browser window is closed. Local Storage has a much larger storage capacity than cookies (up to 5-10 MB), and the data is not sent to the server with every request, which can improve website performance. Local Storage can be accessed and modified by any script running on the same domain.</li> <br>
+                <li>
+                  Session Storage: Session Storage is similar to Local Storage, but the data is only stored for the duration of the session (i.e., until the browser window is closed). Like Local Storage, Session Storage has a larger storage capacity than cookies and can be accessed and modified by any script running on the same domain.
+                </li> <br>
+               <li>
+                Cookies: Cookies are small pieces of data that are stored in a user's browser by a website. They are primarily used for authentication, tracking user preferences, and remembering user information such as login credentials. Cookies have a limited storage capacity (usually up to 4KB) and are sent to the server with every request, which can slow down the website's performance.
+
+
+               </li>
+           </ol>
+        </p>
+        
+      </div>
+    </div>
+    <h2 id="accordion-color-heading-3">
+      <button type="button" class="flex items-center justify-between w-full p-5 font-medium text-left text-gray-500 border border-gray-200 focus:ring-4 focus:ring-blue-200 dark:focus:ring-blue-800 dark:border-gray-700 dark:text-gray-400 hover:bg-blue-100 dark:hover:bg-gray-800" data-accordion-target="#accordion-color-body-3" aria-expanded="false" aria-controls="accordion-color-body-3">
+        <span>What is event loop? and how it's works.?</span>
+        <svg data-accordion-icon class="w-6 h-6 shrink-0" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clip-rule="evenodd"></path></svg>
+      </button>
+    </h2>
+    <div id="accordion-color-body-3" class="hidden" aria-labelledby="accordion-color-heading-3">
+      <div class="p-5 font-light border border-t-0 dark:border-gray-700 dark:bg-gray-900">
+        <p class="mb-2  text-gray-400 dark:text-gray-200">The event loop is a fundamental part of the JavaScript runtime environment that allows asynchronous, non-blocking execution of code. In simple terms, the event loop is a mechanism for managing tasks and callbacks in JavaScript. It is responsible for executing tasks in the event queue and ensuring that the JavaScript code does not block the main thread.
+          <br> <br>
+          This process continues until there are no more tasks in the event queue. If a task takes a long time to execute, it can block the event loop and cause the UI to become unresponsive. To prevent this from happening, long-running tasks should be executed asynchronously using techniques such as Promises, async/await, or Web Workers.
+          <br>
+          <br>
+        In summary, the event loop is a critical component of the JavaScript runtime environment that allows JavaScript to handle asynchronous tasks efficiently. It continuously checks the event queue for pending tasks and executes them in a non-blocking manner, ensuring that JavaScript code does not block the main thread and cause the UI to become unresponsive.
+
+
+        </p>
+        
+      </div>
+    </div>
+
+    <h2 id="accordion-color-heading-3">
+        <button type="button" class="flex items-center justify-between w-full p-5 font-medium text-left text-gray-500 border border-gray-200 focus:ring-4 focus:ring-blue-200 dark:focus:ring-blue-800 dark:border-gray-700 dark:text-gray-400 hover:bg-blue-100 dark:hover:bg-gray-800" data-accordion-target="#accordion-color-body-4" aria-expanded="false" aria-controls="accordion-color-body-4">
+          <span>Here is this main work of function about: QuizTimer & ChooseQuiz.?</span>
+          <svg data-accordion-icon class="w-6 h-6 shrink-0" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clip-rule="evenodd"></path></svg>
+        </button>
+      </h2>
+      <div id="accordion-color-body-4" class="hidden" aria-labelledby="accordion-color-heading-3">
+        <div class="p-5 font-light border border-t-0  dark:border-gray-700 dark:bg-gray-900">
+          <p class="mb-2 text-gray-400 dark:text-gray-200">
+
+            Thus the functions are main work is here :
+            <ol class="text-white list-decimal p-7 px-5">
+                 <li>QuizTimer : The quizTimer function updates an HTML element to display a timer that counts up in seconds.
+
+                  If the dismiss parameter is truthy (i.e., it has a value that is considered true in a boolean context), the function clears the interval timer and returns.
+                  
+                  If dismiss is falsy, the function sets an interval timer that executes the inner function every 1000 milliseconds (i.e., every second).
+                  
+                  In the inner function, the code calculates the number of minutes and seconds that have elapsed since the timer started and updates the HTML element with the corresponding values.
+                  
+                  The code also checks if the count has exceeded 60 seconds and alternates the color of the text displayed in the HTML element between red-300 and red-700 every other second. This feature is likely included to make the timer more visually interesting or noticeable.
+                  
+                  Overall, the quizTimer function is likely intended to be used in a quiz or other timed activity to display a countdown timer or elapsed time.</li>
+              <br>
+              <br>
+                 <li> chooseQuiz : 
+                  The chooseQuiz function takes two parameters, index and givenAns. The function is likely used in a quiz or other similar application to record the answers selected by the user.
+
+                  The function first checks if the current question (identified by the index parameter) has already been answered by the user. It does this by using the Array.find method to search through the answers array for an object with an id property that matches the id property of the current quiz question (quizData[index].id). <br> <br>
+
+                  Finally, the function calls a displayAnswers function (presumably defined elsewhere) with the answers array as a parameter. The purpose of the displayAnswers function is not clear from the code provided, but it likely updates the user interface to display the current set of answers.
+                 </li>
+            </ol>
+          </p>
+          
+        </div>
+      </div>
+  </div>
+  
+</section>
+<!-- ==============Blog Section Part End================ -->
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.6.3/flowbite.min.js"></script>
+</body>
+</html>
